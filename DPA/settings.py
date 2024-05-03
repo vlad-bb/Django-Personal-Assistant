@@ -30,8 +30,8 @@ SECRET_KEY = env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['dpa.fly.dev', '127.0.0.1']
-CSRF_TRUSTED_ORIGINS=["https://dpa.fly.dev"]
+ALLOWED_HOSTS = ['dpa.fly.dev', '127.0.0.1', 'dpa-ai-tools-6bb60404.koyeb.app']
+CSRF_TRUSTED_ORIGINS=["https://dpa.fly.dev", "https://dpa-ai-tools-6bb60404.koyeb.app"]
 
 # Application definition
 
